@@ -1,0 +1,27 @@
+/* CSS DOCUMENT */
+@charset "UTF-8" ;
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(fuentes/Roboto-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto semi bold";
+    src: url(fuentes/Roboto-SemiBold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto italic";
+    src: url(fuentes/Roboto-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1 { 
+    font-family: 'Roboto Regular', sans-serif;
+}
