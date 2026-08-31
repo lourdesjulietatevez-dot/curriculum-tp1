@@ -36,3 +36,9 @@ h3 {
 p {
     font-family: 'Roboto regular', sans-serif;
 }
+.info {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: flex-start
+}
