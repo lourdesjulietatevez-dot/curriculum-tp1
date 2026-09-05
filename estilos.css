@@ -28,7 +28,7 @@ h1 {
 }
 h2 {
     font-family: 'Roboto semi bold', sans-serif;
-    color: palevioletred;
+    color: indigo;
 }
 h3 {
     font-family: 'Roboto regular', sans-serif;
@@ -36,9 +36,73 @@ h3 {
 p {
     font-family: 'Roboto regular', sans-serif;
 }
+span {font-family: 'Roboto semi bold', sans-serif;
+    color: indigo;
+}
 .info {
     display: flex;
     gap: 40px;
     justify-content: flex-start;
     align-items: flex-start
+}
+.perfil-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    margin: 20px;
+    background-color: #ead8f2;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    background-color: #f3e9dc;
+}
+.perfil-contenedor img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+.habilidades {
+    padding: 40px;
+    margin: 20px;
+    background-color: #f3e9dc;
+}
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.lista-habilidades span {
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.proyectos-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}.proyecto {
+    width: 30%;
+}
+.proyecto img {
+    width: 100%;
+}
+footer {
+    display: flex;
+    jalign-items: center;
+    gap: 40px;
+    padding: 40px;
+    margin: 20px;
+    background-color: #ead8f2;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    margin: 20px;
+    background-color: #ead8f2;
 }
