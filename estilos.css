@@ -23,7 +23,7 @@
 }
 
 h1 { 
-    font-family: 'Roboto semi bold', sans-serif;
+    font-family: 'Roboto semi bold', sans-serif; /*fijate que el h2 tiene exactamente las mismas propiedades y se puede optimizar el código aplicando lo mismo de misma forma*/
     color: indigo;
 }
 h2 {
@@ -31,19 +31,19 @@ h2 {
     color: indigo;
 }
 h3 {
-    font-family: 'Roboto regular', sans-serif;
+    font-family: 'Roboto regular', sans-serif; /*lo mismo pasa con este y con las p*/
 }
 p {
     font-family: 'Roboto regular', sans-serif;
 }
-span {font-family: 'Roboto semi bold', sans-serif;
+span {font-family: 'Roboto semi bold', sans-serif; /*esto es igual al h1*/
     color: indigo;
 }
 .info {
     display: flex;
     gap: 40px;
     justify-content: flex-start;
-    align-items: flex-start
+    align-items: flex-start 
 }
 .perfil-contenedor {
     display: flex;
@@ -61,9 +61,9 @@ header {
     background-color: #f3e9dc;
 }
 .perfil-contenedor img {
-    width: 240px;
-    height: 240px;
-    object-fit: cover;
+    width: 240px; /* en los videos hablamos de los anchos fijos, esto te va a complicar para cuando tengamos que hacer versión para celulares, es mejor usar max-width para que el contenido sea flexible hasta la medida deseada*/
+    height: 240px; /* las alturas casi nunca deben ser fijas porque ahí sí que no va a responder bien en distintas pantallas, lo mejor si querés dar una altura es utilizar paddings superior e inferior para que el tamaño esté delimitado por el contenido*/
+    object-fit: cover; /*qué hace esta propiedad?*/
 }
 .habilidades {
     padding: 40px;
@@ -85,20 +85,20 @@ header {
     justify-content: space-evenly;
     gap: 30px;
 }.proyecto {
-    width: 30%;
+    width: 30%; /*los anchos en porcentajes también tienen sus problemas, porque no es lo mismo el 30% de una pantalla de computadora que la de un teléfono, siempre con max-width*/
 }
 .proyecto img {
-    width: 100%;
+    width: 100%; /* acá sí funciona bien porque el 100% es igual en todas las pantallas ya que significa la totalidad, es importante saber diferenciar cuándo px y cuándo % */
 }
 footer {
     display: flex;
-    jalign-items: center;
+    jalign-items: center; /*guarda que está mal escrito!!*/
     gap: 40px;
     padding: 40px;
     margin: 20px;
     background-color: #ead8f2;
 }
-.info {
+.info { /* ya estableciste este selector en ela línea 42, no repitas!! */
     display: flex;
     align-items: center;
     gap: 40px;
