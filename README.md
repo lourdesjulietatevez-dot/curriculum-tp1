@@ -1,15 +1,31 @@
-Curriculum Vitae - Lourdes Tevez
+Portfolio personal — TP3 Lourdes Tevez
 
-Primer Trabajo Práctico realizado para la materia Computación III.
+Computación III | Diseño y Comunicación Visual — UNLa
 
-El proyecto consiste en el diseño y desarrollo de mi Curriculum Vitae en formato web. Incluí información sobre mi perfil, experiencia laboral, formación, habilidades y herramientas, además de algunos proyectos realizados durante la carrera.
+Descripción del proyecto
 
-Para realizarlo trabajé con HTML y CSS, utilizando Flexbox para organizar y distribuir los diferentes contenidos de la página.
+Desarrollo de un portfolio web personal a partir del rediseño y ampliación del currículum realizado en el primer trabajo práctico.
 
-Datos del trabajo
+El sitio busca presentar mi perfil profesional, áreas de trabajo y proyectos de diseño mediante una propuesta visual minimalista, con una organización clara de los contenidos y una navegación intuitiva.
 
-Trabajé en una MacBook Pro de 15 pulgadas.
-Utilicé Visual Studio Code como editor de código.
-La página fue visualizada y probada principalmente en Google Chrome.
-Se utilizaron HTML5, CSS y Flexbox.
-Las imágenes utilizadas fueron optimizadas para web.
+Herramientas utilizadas
+
+Figma: diseño de interfaces y prototipado.
+
+Visual Studio Code: desarrollo del sitio.
+
+HTML5: estructura semántica del contenido.
+
+CSS: estilos, tipografía, Flexbox y Grid.
+
+Diseño y desarrollo
+
+El diseño se desarrolló para una resolución de referencia de 1920 × 1080 px.
+
+Se utilizaron las tipografías Manrope y DM Sans, junto con una paleta de colores neutros.
+
+El proyecto se encuentra en desarrollo. Está prevista la incorporación de nuevas páginas, recursos visuales y adaptaciones para dispositivos móviles mediante media queries.
+
+Prototipo en Figma
+
+https://www.figma.com/design/5RnZXnzwNqweoMh4KWeuVf/Portfolio-Lourdes
