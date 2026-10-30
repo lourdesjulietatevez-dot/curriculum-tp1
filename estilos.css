@@ -115,14 +115,18 @@ a:hover {
     letter-spacing: -3px;
 }
 
-.section-hero > p:nth-of-type(2) {
+/* Este caso es similar a lo que puse sobre last-child. Sumado a que, que pasa si quiero mover ese texto abajo o arriba? o agregar mas cosas? 
+vas a tener que salir a buscar todos los nth que hayas puesto y cambiarles los valores. Te estas comprando mas laburo solo por gusto.
+Usá una clase y listo. nth-of-type tiene sentido cuando hay enumeraciones (por ejemplo una lista y queres que el primero, ultimo o n-esimo tenga un formato especial. 
+Varios parrafos no forman una enumeración, no tienen orden establecido, y es esperable que el texto pueda redactarse y terminen cambiando la cantidad de parrafos */
+.section-hero>p:nth-of-type(2) {
     max-width: 700px;
     font-size: 20px;
     line-height: 1.6;
     color: var(--color-secundario);
 }
 
-.section-hero > a {
+.section-hero>a {
     margin-top: 12px;
     font-size: 18px;
     font-weight: 600;
@@ -141,6 +145,9 @@ a:hover {
 .enfoque-intro,
 .enfoque-etapas {
     flex: 1;
+    /* Tenes varios de estos min-width 0 que no hacen nada. 
+    Se suelen agregar cuando tenes un problema de overflow dentro de Flex, pero no es tu caso, todo tu contenido se acomoda solo, por ser texto e imagen.
+    Diria que los saques hasta que haya un problema real. Podes probar ir desactivandolos en el inspector en el remoto caso de que se rompa algo */
     min-width: 0;
 }
 
@@ -214,6 +221,7 @@ a:hover {
 }
 
 .areas-encabezado h2 {
+    /* Tenes varios h2 (todos excepto el de contacto) con las mismas propiedades repetidas. */
     font-size: 48px;
     line-height: 1.2;
 }
@@ -271,7 +279,10 @@ a:hover {
     margin-bottom: 24px;
 }
 
-.exploracion-intro > p:last-child {
+/* Usaste mucho este recurso de last-child. Ojo que es muy facil que se rompa "sin querer", 
+por ejemplo, si alguien agrega un texto nuevo, rompe texto anterior que nada que ver.
+Usá una clase o bien aplicalo a todos los p y creá una nueva clase para lo que cambie en otros lados */
+.exploracion-intro>p:last-child {
     font-size: 18px;
     line-height: 1.6;
     color: #555650;
@@ -282,6 +293,7 @@ a:hover {
     flex: 1;
     min-width: 0;
     height: 420px;
+    /* Esta altura entiendo que viene de que, como tenes todo divs adentro, no tienen alto fijo y colapsa. Asegurate de que cuando tengas imgs, no quede para la entrega final */
     gap: 12px;
 }
 
@@ -312,7 +324,8 @@ a:hover {
     padding: 80px 100px;
 }
 
-.section-contacto > .etiqueta {
+.section-contacto>.etiqueta {
+    /* Todas las reglas de etiqueta se repiten excepto el margen, ojo con eso. Podes extraer a un selector para la clase etiqueta y despues recién agregar el margen en `.section-contacto > .etiqueta`, o usar un gap directamente en `.seccion-contacto` */
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -420,6 +433,7 @@ a:hover {
     align-items: center;
     gap: 24px;
     margin-top: 32px;
+    /* Para no poner este margen colgado, podrias haber usado flex + gap en el contenedor padre */
 }
 
 .footer-inferior p {
