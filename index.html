@@ -1,159 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lourdes Tevez | Diseño y Comunicación Visual</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-    <header class="header-global">
-        <nav class="nav-principal" aria-label="Navegación principal">
-            <a href="index.html" class="logo">Lourdes Tevez</a>
 
-            <div class="nav-enlaces">
-                <a href="proyectos.html">Proyectos</a>
-                <a href="sobre-mi.html">Sobre mí</a>
-                <a href="contacto.html">Contacto</a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section id="inicio" class="section-hero">
-            <p>PORTFOLIO / 2026</p> <!-- Veo que usaste mucho p, o p con la clase `etiqueta`, para estos "subtitulos". Se suele usar un h alto (h4/5/6 etc), el primero que te deje el resto del contenido. Viendo lo que tenes acá, podria ser un h4 -->
-            <h1>Diseño &amp; comunicación visual.</h1>
-            <p>
-                Identidad visual, packaging y experiencias digitales.
-                Diseño soluciones que conectan conceptos, marcas y personas.
-            </p>
-            <a href="proyectos.html">Explorar proyectos ↘</a>
-        </section>
-<section id="enfoque" class="section-enfoque">
-    <div class="enfoque-intro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Lourdes Tevez: identidad visual, packaging y diseño digital.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Inicio | Lourdes Tevez</title>
+</head>
+
+<body>
+  <header class="header-global">
+    <nav class="nav-principal" aria-label="Navegación principal">
+      <a class="logo" href="index.html">Lourdes Tevez</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false"
+        aria-controls="nav-enlaces"><span></span><span></span><span></span></button>
+      <div class="nav-enlaces" id="nav-enlaces"><a href="index.html">Inicio</a><a href="proyectos.html">Proyectos</a><a
+          href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a></div>
+    </nav>
+  </header>
+  <main>
+    <section class="section-hero" id="inicio">
+      <p class="etiqueta">PORTFOLIO / 2026</p>
+      <h1>Diseño &amp;<br>comunicación visual</h1>
+      <p class="hero-descripcion">Hola! Soy Luli, acá vas a encontrar identidad visual, packaging y experiencias
+        digitales.<br>Diseño soluciones que conectan conceptos, marcas y personas.</p><a class="hero-link"
+        href="proyectos.html">Explorar proyectos ↘</a>
+    </section>
+    <section class="section-enfoque" id="enfoque">
+      <div class="enfoque-intro">
         <p class="etiqueta">MI ENFOQUE</p>
         <h2>Del concepto a la experiencia</h2>
-        <p>
-            Entiendo el diseño como un proceso que articula
-            investigación, estrategia y decisiones visuales
-            para construir soluciones claras, coherentes
-            y significativas.
-        </p>
-    </div>
-    <div class="enfoque-etapas">
-        <article class="etapa">
-            <span class="numero">01</span>
-            <div>
-                <h3>Investigar</h3>
-                <p>Analizar el contexto, identificar necesidades y encontrar oportunidades.</p>
-            </div>
+        <p>Entiendo el diseño como un proceso que articula investigación, estrategia y decisiones visuales para
+          construir soluciones claras, coherentes y significativas.</p>
+      </div>
+      <div class="enfoque-etapas">
+        <article class="etapa"><span class="numero">01</span>
+          <div>
+            <h3>Investigar</h3>
+            <p>Analizar el contexto, identificar necesidades y encontrar oportunidades.</p>
+          </div>
         </article>
-        <article class="etapa">
-            <span class="numero">02</span>
-            <div>
-                <h3>Conceptualizar</h3>
-                <p>Transformar la investigación en ideas y decisiones de diseño.</p>
-            </div>
+        <article class="etapa"><span class="numero">02</span>
+          <div>
+            <h3>Conceptualizar</h3>
+            <p>Transformar la investigación en ideas y decisiones de diseño fundamentadas.</p>
+          </div>
         </article>
-        <article class="etapa">
-            <span class="numero">03</span>
-            <div>
-                <h3>Materializar</h3>
-                <p>Desarrollar soluciones visuales coherentes, funcionales y aplicables.</p>
-            </div>
+        <article class="etapa"><span class="numero">03</span>
+          <div>
+            <h3>Materializar</h3>
+            <p>Desarrollar y ajustar soluciones visuales hasta lograr un resultado coherente y funcional.</p>
+          </div>
         </article>
-    </div>
-</section>     
-<section id="areas" class="section-areas">
-    <div class="areas-encabezado">
+      </div>
+    </section>
+    <section class="section-areas" id="areas">
+      <div class="areas-encabezado">
         <p class="etiqueta">ÁREAS DE TRABAJO</p>
         <h2>Diseño en diferentes escalas</h2>
-    </div>
-    <div class="areas-grid">
-        <article class="area">
-            <div class="area-imagen"></div>
-            <h3>Identidad visual</h3>
-            <p>
-                Desarrollo de marcas y sistemas visuales que
-                construyen identidad y comunican con coherencia.
-            </p>
+      </div>
+      <div class="areas-grid" data-carousel="areas">
+        <article class="area"><img src="img/logo-apex.jpg" alt="Identidad visual de APEX LAB" loading="lazy">
+          <h3>Identidad visual</h3>
+          <p>Desarrollo de marcas y sistemas visuales que construyen identidad y comunican con coherencia.</p>
         </article>
-        <article class="area">
-            <div class="area-imagen"></div>
-            <h3>Packaging</h3>
-            <p>
-                Diseño de envases que integran identidad,
-                información y funcionalidad en una experiencia
-                visual coherente.
-            </p>
+        <article class="area"><img src="img/purify-home.jpg" alt="Diseño de packaging de PURIFY" loading="lazy">
+          <h3>Packaging</h3>
+          <p>Diseño de envases que integran identidad, información y funcionalidad en una experiencia visual coherente.
+          </p>
         </article>
-        <article class="area">
-            <div class="area-imagen"></div>
-            <h3>Diseño digital</h3>
-            <p>
-                Diseño de interfaces y experiencias digitales
-                que priorizan la claridad, la funcionalidad
-                y la navegación intuitiva.
-            </p>
+        <article class="area"><img src="img/cerro.jpg" alt="Rediseño digital del sitio Cerro Colorado" loading="lazy">
+          <h3>Diseño digital</h3>
+          <p>Diseño de interfaces y experiencias digitales que priorizan la claridad, la funcionalidad y la navegación
+            intuitiva.</p>
         </article>
-    </div>
-</section>
-        
-<section id="exploracion" class="section-exploracion">
-    <div class="exploracion-intro">
+      </div>
+      <div class="areas-controls"><span class="areas-indicator" aria-live="polite">01 / 03 — Identidad visual</span>
+        <div class="arrow-group"><button type="button" class="circle-arrow areas-prev"
+            aria-label="Área anterior">←</button><button type="button" class="circle-arrow areas-next"
+            aria-label="Área siguiente">→</button></div>
+      </div>
+    </section>
+    <section class="section-exploracion" id="exploracion">
+      <div class="exploracion-intro">
         <p class="etiqueta">EXPLORACIÓN VISUAL</p>
         <h2>Formas en proceso</h2>
-        <p>
-            Bocetos, pruebas tipográficas, paletas y composiciones.
-            Un registro de ideas que forman parte de mi proceso
-            de diseño.
-        </p>
-    </div>
-    <div class="exploracion-mosaico">
-        <div class="exploracion-principal"></div>
-
+        <p>Bocetos, pruebas tipográficas, paletas y composiciones. Un registro de ideas que forman parte de mi proceso
+          de diseño.</p>
+      </div>
+      <div class="exploracion-mosaico">
+        <img class="exploracion-principal" src="img/Proyecto1.png"
+          alt="Mockup de diseño editorial" loading="lazy">
         <div class="exploracion-secundarias">
-            <div class="exploracion-imagen"></div>
-            <div class="exploracion-imagen"></div>
+          <img src="img/encuentro.jpg"
+            alt="Identidad visual del XV Encuentro" loading="lazy">
+            <img src="img/Proyecto2.png" alt="Diseño editorial con fondo naranja"
+            loading="lazy">
         </div>
-    </div>
-</section> 
-<section id="contacto" class="section-contacto">
-    <p class="etiqueta">CONTACTO</p>
-    <div class="contacto-contenido">
-        <div class="contacto-textos">
-            <h2>¿Creamos algo juntxs?</h2>
-            <p>
-                ¿Tenés un proyecto en mente? Me encantaría
-                conocer tu idea y explorar cómo podemos
-                trabajar juntxs.
-            </p>
-        </div>
-        <a href="contacto.html" class="btn-hablemos">
-            HABLEMOS
-            <span aria-hidden="true">↗</span>
-        </a>
-    </div>
-</section>
-    </main>
-    
-<footer class="footer-global">
+      </div>
+    </section>
+    <section class="section-contacto">
+      <p class="etiqueta">CONTACTO</p>
+      <div class="contacto-contenido">
+        <div>
+          <h2>¿Creamos algo juntxs?</h2>
+          <p>¿Tenés un proyecto en mente? Me encantaría conocer tu idea y explorar cómo podemos trabajar juntxs.</p>
+        </div><a class="btn-oscuro" href="contacto.html">HABLEMOS ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-global">
     <div class="footer-superior">
-        <div class="footer-identidad">
-            <p class="footer-nombre">Lourdes Tevez</p>
-            <p>Diseño &amp; Comunicación Visual</p>
-        </div>
-        <nav class="footer-nav" aria-label="Navegación del pie de página">
-            <a href="index.html">Inicio</a>
-            <a href="proyectos.html">Proyectos</a>
-            <a href="sobre-mi.html">Sobre mí</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
+      <div class="footer-identidad">
+        <p class="footer-nombre">Lourdes Tevez</p>
+        <p class="footer-profesion">Diseño &amp; Comunicación Visual</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navegación del pie de página"><a href="index.html">Inicio</a><a
+          href="proyectos.html">Proyectos</a><a href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a>
+      </nav>
     </div>
-    <div class="footer-inferior">
-        <p>© 2026 Lourdes Tevez</p>
-        <p>Buenos Aires, Argentina</p>
-    </div>
-</footer>
-
+    <div class="footer-inferior"><small>© 2026 Lourdes Tevez</small><small>Buenos Aires, Argentina</small></div>
+  </footer>
+  <script src="script.js" defer></script>
 </body>
+
 </html>

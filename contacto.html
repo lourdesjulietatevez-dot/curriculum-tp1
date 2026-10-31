@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Lourdes Tevez: identidad visual, packaging y diseño digital.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Contacto | Lourdes Tevez</title>
+</head>
+
+<body>
+  <header class="header-global">
+    <nav class="nav-principal" aria-label="Navegación principal">
+      <a class="logo" href="index.html">Lourdes Tevez</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false"
+        aria-controls="nav-enlaces"><span></span><span></span><span></span></button>
+      <div class="nav-enlaces" id="nav-enlaces"><a href="index.html">Inicio</a><a href="proyectos.html">Proyectos</a><a
+          href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a></div>
+    </nav>
+  </header>
+  <main>
+    <section class="contact-page">
+      <div class="contact-intro">
+        <p class="etiqueta">03 / CONTACTO</p>
+        <h1>¿Trabajamos juntxs?</h1>
+        <h2>Hablemos de tu próxima idea</h2>
+        <p>Si tenés un proyecto en mente, una propuesta de colaboración o simplemente querés conversar sobre diseño, me
+          encantaría conocer tu idea.</p>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" placeholder="Tu nombre"
+              required></div>
+          <div class="field"><label for="email">Correo electrónico</label><input id="email" type="email" name="email"
+              placeholder="tu@email.com" required></div>
+        </div>
+        <div class="field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje"
+            placeholder="Contame sobre tu proyecto..." rows="3" required></textarea></div><button class="btn-oscuro"
+          type="submit">Enviar mensaje ↗</button>
+        <p class="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer-global">
+    <div class="footer-superior">
+      <div class="footer-identidad">
+        <p class="footer-nombre">Lourdes Tevez</p>
+        <p class="footer-profesion">Diseño &amp; Comunicación Visual</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navegación del pie de página"><a href="index.html">Inicio</a><a
+          href="proyectos.html">Proyectos</a><a href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+    <div class="footer-inferior"><small>© 2026 Lourdes Tevez</small><small>Buenos Aires, Argentina</small></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

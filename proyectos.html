@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Lourdes Tevez: identidad visual, packaging y diseño digital.">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Proyectos | Lourdes Tevez</title>
+</head>
+
+<body>
+  <header class="header-global">
+    <nav class="nav-principal" aria-label="Navegación principal">
+      <a class="logo" href="index.html">Lourdes Tevez</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false"
+        aria-controls="nav-enlaces"><span></span><span></span><span></span></button>
+      <div class="nav-enlaces" id="nav-enlaces"><a href="index.html">Inicio</a><a href="proyectos.html">Proyectos</a><a
+          href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a></div>
+    </nav>
+  </header>
+  <main>
+    <section class="projects-intro">
+      <p class="etiqueta">01 / PORTFOLIO</p>
+      <h1>Proyectos</h1>
+      <p>Una selección de proyectos de identidad visual, packaging y diseño digital.</p>
+    </section>
+    <section class="section-proyectos">
+      <div class="projects-heading">
+        <h2>Proyectos seleccionados</h2><span>01 — 04</span>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card"><img src="img/apex-proyecto.jpg" loading="lazy" alt="Proyecto APEX LAB">
+          <div class="project-bar">
+            <div>
+              <h3>01 / APEX LAB</h3>
+              <p>Identidad visual & Packaging</p>
+            </div><button class="project-toggle" type="button" aria-expanded="false" aria-controls="project-detail-1"
+              aria-label="Ver detalles de APEX LAB">+</button>
+          </div>
+          <p class="project-detail" id="project-detail-1" hidden>Diseño de identidad visual y packaging para una marca
+            de suplementación deportiva. Una propuesta que combina rendimiento, tecnología y claridad gráfica.</p>
+        </article>
+        <article class="project-card"><img src="img/purify-packaging.jpg" loading="lazy" alt="Proyecto PURIFY">
+          <div class="project-bar">
+            <div>
+              <h3>02 / PURIFY</h3>
+              <p>Diseño de packaging</p>
+            </div><button class="project-toggle" type="button" aria-expanded="false" aria-controls="project-detail-2"
+              aria-label="Ver detalles de PURIFY">+</button>
+          </div>
+          <p class="project-detail" id="project-detail-2" hidden>Diseño de sistemas de packaging para purificadores de
+            agua y cartuchos de recambio, con una estética técnica y minimalista.</p>
+        </article>
+        <article class="project-card"><img src="img/redes-encuentro.jpg" loading="lazy"
+            alt="Proyecto ENCUENTRO DE HISTORIADORES">
+          <div class="project-bar">
+            <div>
+              <h3>03 / ENCUENTRO DE HISTORIADORES</h3>
+              <p>Identidad visual & Comunicación</p>
+            </div><button class="project-toggle" type="button" aria-expanded="false" aria-controls="project-detail-3"
+              aria-label="Ver detalles de ENCUENTRO DE HISTORIADORES">+</button>
+          </div>
+          <p class="project-detail" id="project-detail-3" hidden>Identidad y piezas de comunicación para el XV Encuentro
+            Iberoamericano de Historiadores de la Prensa, Buenos Aires 2027.</p>
+        </article>
+        <article class="project-card"><img src="img/cerro-proyectos.jpg" loading="lazy" alt="Proyecto CERRO COLORADO">
+          <div class="project-bar">
+            <div>
+              <h3>04 / CERRO COLORADO</h3>
+              <p>Diseño UX/UI & Prototipado web</p>
+            </div><button class="project-toggle" type="button" aria-expanded="false" aria-controls="project-detail-4"
+              aria-label="Ver detalles de CERRO COLORADO">+</button>
+          </div>
+          <p class="project-detail" id="project-detail-4" hidden>Rediseño de la experiencia digital de la Reserva
+            Cultural y Natural Cerro Colorado: arquitectura de información, interfaz y prototipado.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section-destacado">
+      <p class="etiqueta">PROYECTO DESTACADO / 04</p>
+      <div class="destacado-layout">
+        <div class="destacado-texto">
+          <h2>Cerro Colorado:<br>del diseño a la interacción.</h2>
+          <p>Rediseño de la experiencia digital de la Reserva Cultural y Natural Cerro Colorado. El proyecto abordó la
+            reorganización de contenidos, la navegación y el desarrollo de una interfaz visual coherente, adaptable a
+            diferentes dispositivos.</p>
+        </div>
+        <div class="video-gallery" data-carousel="videos">
+          <div class="video-slide"><video controls playsinline preload="none" poster="img/cerro.jpg">
+              <source src="videos/cerro-inicio.mp4" type="video/mp4">Tu navegador no admite videos.
+            </video></div>
+          <div class="video-slide" hidden><video controls playsinline preload="none" poster="img/cerro-proyectos.jpg">
+              <source src="videos/cerro-descubri.mp4" type="video/mp4">Tu navegador no admite videos.
+            </video></div>
+          <div class="video-slide" hidden><video controls playsinline preload="none" poster="img/cerro.jpg">
+              <source src="videos/cerro-planifica.mp4" type="video/mp4">Tu navegador no admite videos.
+            </video></div>
+          <div class="video-controls"><span class="video-indicator">01 / 03 — Inicio</span>
+            <div class="arrow-group"><button class="circle-arrow video-prev" type="button"
+                aria-label="Video anterior">←</button><button class="circle-arrow video-next" type="button"
+                aria-label="Video siguiente">→</button></div>
+          </div>
+          <p class="video-note">Recorrido de las pantallas Inicio, Descubrí y Planificá tu visita.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-global">
+    <div class="footer-superior">
+      <div class="footer-identidad">
+        <p class="footer-nombre">Lourdes Tevez</p>
+        <p class="footer-profesion">Diseño &amp; Comunicación Visual</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navegación del pie de página"><a href="index.html">Inicio</a><a
+          href="proyectos.html">Proyectos</a><a href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+    <div class="footer-inferior"><small>© 2026 Lourdes Tevez</small><small>Buenos Aires, Argentina</small></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

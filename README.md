@@ -1,29 +1,51 @@
-Portfolio personal — TP3 Lourdes Tevez
+# Portfolio personal — TP3
 
+Lourdes Tevez
 Computación III | Diseño y Comunicación Visual — UNLa
 
-Se está desarrollando un portfolio web personal a partir del rediseño y ampliación del currículum realizado en el primer trabajo práctico.
+# Descripción del proyecto
 
-El sitio busca presentar mi perfil profesional, áreas de trabajo y proyectos de diseño mediante una propuesta visual minimalista, con una organización clara de los contenidos y una navegación intuitiva.
+Desarrollo de un portfolio web personal a partir del rediseño y ampliación del currículum realizado en el primer trabajo práctico.
 
-Herramientas utilizadas:
+El sitio presenta mi perfil profesional, áreas de trabajo, proyectos de diseño, formación y medios de contacto mediante una propuesta visual minimalista, con especial atención a la jerarquía de la información, la coherencia gráfica y la navegación intuitiva.
 
-Figma: diseño de interfaces y prototipado.
+# Diseño y desarrollo
 
-Visual Studio Code: desarrollo del sitio.
+La propuesta visual fue desarrollada inicialmente en Figma, mediante la construcción de pantallas de alta fidelidad, componentes reutilizables y prototipos de navegación.
 
-HTML5: estructura semántica del contenido.
+Posteriormente, se realizó su implementación mediante HTML5, CSS y JavaScript, buscando mantener la correspondencia entre el prototipo y el sitio desarrollado.
 
-CSS: estilos, tipografía, Flexbox y Grid.
+Se utilizaron las tipografías Manrope y DM Sans, una paleta de colores neutros y una composición adaptable a diferentes tamaños de pantalla.
 
-Diseño y desarrollo:
+# Estructura del sitio
 
-El diseño se desarrolló para una resolución de referencia de 1920 × 1080 px.
+- **Inicio (`index.html`):** presentación personal, áreas de trabajo, exploración visual y acceso a contacto.
+- **Proyectos (`proyectos.html`):** selección de trabajos de diseño con recursos gráficos y audiovisuales.
+- **Sobre mí (`sobre-mi.html`):** perfil, experiencia y formación.
+- **Contacto (`contacto.html`):** formulario de consulta mediante correo electrónico.
 
-Se utilizaron las tipografías Manrope y DM Sans, junto con una paleta de colores neutros.
+# Herramientas y tecnologías
 
-Está prevista la incorporación de nuevas páginas, recursos visuales y adaptaciones para dispositivos móviles mediante media queries.
+- **Figma:** diseño de interfaces, componentes y prototipado.
+- **Visual Studio Code:** edición y desarrollo del sitio.
+- **HTML5:** estructura y organización semántica.
+- **CSS:** estilos, tipografía, Flexbox, Grid y media queries.
+- **JavaScript:** interacciones y funcionalidades del sitio.
+- **GitHub:** control de versiones y repositorio del proyecto.
 
-Prototipo en Figma
+# Recursos y funcionalidades
+
+- Diseño responsive para escritorio y dispositivos móviles.
+- Navegación entre páginas y menú adaptable a mobile.
+- Galerías y carrusel de imágenes.
+- Incorporación de videos de proyectos.
+- Descarga del currículum en PDF.
+- Formulario de contacto mediante `mailto:`.
+
+# Prototipo en Figma
 
 https://www.figma.com/design/5RnZXnzwNqweoMh4KWeuVf/Portfolio-Lourdes
+
+# Repositorio en GitHub
+
+https://github.com/lourdesjulietatevez-dot/curriculum-tp1
